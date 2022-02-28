@@ -1,0 +1,41 @@
+.top {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.left {
+  margin-top: -2.5px;
+  padding-left: 8px;
+}
+.right {
+  display: flex;
+  padding-top: 2px;
+  padding-right: 5px;
+}
+
+.right > div {
+  padding-left: 2px;
+}
+
+#no-mobile {
+  position: absolute;
+  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  font-size: 33px;
+  top: 0;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}

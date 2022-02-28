@@ -1,0 +1,121 @@
+.gangchat {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 255, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day {
+  background-color: 
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day > div {
+    width: 100px;
+  background-color: rgba(255, 255, 255, 0.329);
+  border-radius: 20px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.726);
+  margin-top: 30px;
+}
+
+.mainchat {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 20px;
+  background-color: rgb(55, 194, 147);
+  box-shadow: -2px -3px 20px rgb(35, 126, 96);
+}
+
+.friendchatprofile {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.friendchatleftimage {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.centerchatname {
+  width: 160px;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 2px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgba(34, 124, 94, 0.9);
+  box-shadow: 0px -2px 20px rgba(34, 124, 94, 1);
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+}
+.chatingbar {
+  width: 100vw;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textbar {
+  margin-left: 20px;
+  width: 70%;
+  border: 0;
+  border-radius: 7px;
+  outline: 0;
+}
+
+.textbar:focus {
+  transition: all 0.3s;
+  width: 80%;
+  margin-left: 10px;
+}
+
+.submit {
+  margin-right: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(16, 61, 31);
+  color: aliceblue;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    margin: 5px 5px 5px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(16, 61, 31,0.2);
+}

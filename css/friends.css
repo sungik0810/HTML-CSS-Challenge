@@ -1,0 +1,115 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55, 194, 147);
+}
+
+.friends {
+  background-color: white;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 15px;
+}
+
+.myprofile {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(6, 7, 6, 0.2);
+}
+.leftimage {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftimage > img {
+  height: 100%;
+}
+
+.mycentername {
+  position: absolute;
+  width: 150px;
+  left: 80px;
+}
+
+.centername {
+  position: absolute;
+  width: 150px;
+  left: 80px;
+}
+
+.rightbtn {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 2px;
+}
+
+.rightbtn > form {
+  display: flex;
+  align-items: center;
+  width: 1px;
+}
+
+form > input {
+  display: flex;
+  position: absolute;
+  font-size: 5px;
+  width: 120px;
+  height: 30px;
+  right: 5px;
+  background-color: rgba(0, 255, 0, 0.1);
+  border: 2px solid rgb(55, 194, 147);
+  border-radius: 30px;
+  top: -6px;
+}
+
+form > img {
+  position: absolute;
+  height: 25px;
+  right: 6px;
+  z-index: 1;
+  top: -3px;
+}
+
+.friendprofile {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 255, 0, 0.1);
+}
+
+.friendleftimage {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friendleftimage > img {
+  height: 100%;
+}
